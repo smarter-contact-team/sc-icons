@@ -1,28 +1,23 @@
 {
-  "name": "lucide-react",
-  "description": "A Lucide icon library package for React applications.",
+  "name": "@smarter-contact-team/lucide-react",
   "version": "0.0.1",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "description": "A Lucide icon library package for React applications.",
   "license": "ISC",
   "homepage": "https://lucide.dev",
   "bugs": "https://github.com/lucide-icons/lucide/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lucide-icons/lucide.git",
+    "url": "git@github.com:smarter-contact-team/sc-icons.git",
     "directory": "packages/lucide-react"
   },
   "keywords": [
     "Lucide",
     "React",
-    "Feather",
-    "Icons",
-    "Icon",
-    "SVG",
-    "Feather Icons",
-    "Fontawesome",
-    "Font Awesome"
+    "Icons"
   ],
-  "author": "Eric Fennis",
-  "amdName": "lucide-react",
   "main": "dist/cjs/lucide-react.js",
   "main:umd": "dist/umd/lucide-react.js",
   "module": "dist/esm/lucide-react.js",
